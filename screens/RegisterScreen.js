@@ -31,7 +31,7 @@ const RegisterScreen = ({navigation}) => {
               .then(() => {
                 // Profile update successful
                 // Redirect or perform any other actions
-                navigation.replace('Home');
+                navigation.replace('ForbiddenForum');
               })
               .catch((error) => {
                 // Error updating profile
